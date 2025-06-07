@@ -3083,7 +3083,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			background: rgba(23, 24, 32, 0.85);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3451,8 +3451,8 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-color: #1358b8;
+		background-image: url("../../images/NYC-background.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3471,10 +3471,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(219, 88, 184, 0.55)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(19, 88, 184, 0.55)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(19, 88, 184, 0.55)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(19, 88, 184, 0.55)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3487,7 +3487,7 @@ input, select, textarea {
 		#banner .content {
 			display: inline-block;
 			margin-right: 1%;
-			max-width: 95%;
+			max-width:.85%;
 			padding: 6em;
 			position: relative;
 			text-align: right;
